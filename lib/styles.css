@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+.main-splash {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.site-title {
+    text-align: center;
+}
+
+#location-search-box {
+  position: absolute;
+  width: 40%;
+  height: 5%;
+  font-size: 200%;
+  margin-left: 15%;
+  margin-top: 20%;
+  border-color: grey;
+  border-radius: 1px;
+  background-color: #DCDCDC;
+}
+
+#weather-submit {
+  position: absolute;
+  width: 20%;
+  height: 5%;
+  font-size: 200%;
+  margin-left: 60%;
+  margin-top: 20%;
+  border-radius: 20px;
+  border-color: grey;
+  border-radius: 1px;
+  background-color: #DCDCDC;
+
+}
