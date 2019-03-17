@@ -5,12 +5,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-::placeholder {
-  color: black;
-  opacity: 1;
-}
-
-.main-splash {
+body {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -19,7 +14,14 @@
   height: 100%;
   width: 100%;
   z-index: -1;
+  background-image: url('../pictures/welcome-splash.jpg');
 }
+
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
 
 .site-title {
   margin-top: 10%;
